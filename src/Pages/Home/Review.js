@@ -2,13 +2,13 @@ import React from 'react';
 
 const Review = ({ review }) => {
     return (
-        <div class="card lg:max-w-lg shadow-xl text-primary-content">
-            <div class="card-body">
+        <div className="card lg:max-w-lg shadow-xl text-primary-content">
+            <div className="card-body">
 
                 <p>{review.description}</p>
-                <div class="flex items-center">
-                    <div class="avatar">
-                        <div class="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
+                <div className="flex items-center">
+                    <div className="avatar">
+                        <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
                             <img src={review.img} alt='' />
                         </div>
                     </div>
