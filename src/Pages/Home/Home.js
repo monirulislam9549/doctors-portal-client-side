@@ -1,4 +1,5 @@
 import React from 'react';
+import MakeAppointment from '../Shared/MakeAppointment';
 import Services from '../Shared/Services';
 import Treatment from '../Shared/Treatment';
 import Banner from './Banner';
@@ -11,6 +12,7 @@ const Home = () => {
             <Info></Info>
             <Services></Services>
             <Treatment></Treatment>
+            <MakeAppointment></MakeAppointment>
         </div>
     );
 };
