@@ -4,7 +4,7 @@ import Services from '../Shared/Services';
 import Treatment from '../Shared/Treatment';
 import Banner from './Banner';
 import Contact from './Contact';
-import Footer from './Footer';
+import Footer from '../Shared/Footer';
 import Info from './Info';
 import Testimonials from './Testimonials';
 
